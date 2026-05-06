@@ -1,9 +1,9 @@
 {
-  "name": "code-oss-dev",
+  "name": "uutest-dev",
   "version": "1.116.0",
   "distro": "84f56fc18b7c65a62bf54eb70db2d4d24378a0d2",
   "author": {
-    "name": "Microsoft Corporation"
+    "name": "unknown"
   },
   "license": "MIT",
   "main": "./out/main.js",
