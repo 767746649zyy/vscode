@@ -45,6 +45,19 @@ Windows:`.\scripts\code-server.bat --launch`
 
 ### 打包
 
+### windows 应用包
+
+`npm run gulp vscode-win32-x64   `
+
+### linux 应用包
+
+由于打包 Linux 安装包 时在线下载linux Electron二进制文件失败，链接github.com失败。所以事先下载好放到本地
+`curl -L https://github.com/electron/electron/releases/download/v39.8.7/electron-v39.8.7-linux-x64.zip -o electron-v39.8.7-linux-x64.zip`
+
+然后执行 `sh prebuild-linux.sh`
+
+注意：打包其他平台应用时需要重新下载electron依赖
+
 ### macOS 应用包（.app）
 
 禁用copilot，打开build/gulpfile.vscode.ts注释prepareBuiltInCopilotExtensionShims
